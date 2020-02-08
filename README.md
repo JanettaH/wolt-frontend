@@ -3,7 +3,7 @@
 
 Step 1:
 
-# `npm install`
+##### `npm install`
 
 Step 2:
 
