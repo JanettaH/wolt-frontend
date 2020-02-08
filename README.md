@@ -7,12 +7,16 @@ Step 1:
 
 Step 2:
 
-##### `npx json-server --port=3001 --watch db.json`
+##### `npm install axios`
 
 Step 3:
 
-##### `npm start`
+##### `npx json-server --port=3001 --watch db.json`
 
 Step 4:
+
+##### `npm start`
+
+Step 5:
 
 ##### `http://localhost:3000/`
