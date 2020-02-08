@@ -84,7 +84,6 @@ const Restaurant = ({ data }) => {
 
   const handleLoad = () => {
     setLoaded(true);
-    console.log("loadedfunction");
   };
   return (
     <Card className={classes.card}>

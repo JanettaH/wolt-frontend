@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
     paddingTop: "80px"
   },
   formControl: {
-    marginTop: "4px"
+    marginTop: "6px"
   }
 }));
 
@@ -60,10 +60,13 @@ const App = () => {
     if (event.target.value === "1") {
       const dataArray = [...restaurants];
       setRestaurans(dataArray.sort((a, b) => a.name.localeCompare(b.name)));
+      console.log(dataArray);
       return;
     } else if (event.target.value === "2") {
       const dataArray = [...restaurants];
       setRestaurans(dataArray.sort((a, b) => b.name.localeCompare(a.name)));
+      console.log(restaurants);
+
       return;
     }
   };
@@ -91,6 +94,7 @@ const App = () => {
               Sort by
             </InputLabel>
             <Select
+              data-cy="atoz"
               native
               value={value}
               onChange={handleChange(value)}
@@ -101,8 +105,12 @@ const App = () => {
               }}
             >
               <option value="" />
-              <option value={1}>A to Ö</option>
-              <option value={2}>Ö to A</option>
+              <option value={1} data-cy="atoz">
+                A to Ö
+              </option>
+              <option value={2} data-cy="z">
+                Ö to A
+              </option>
             </Select>
           </FormControl>
         </Toolbar>
