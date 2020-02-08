@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
     display: "none"
   },
   title: {
-    padding: "5px",
+    padding: "6px",
     paddingTop: "7px"
   },
   button: {
