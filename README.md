@@ -20,3 +20,10 @@ Step 3:
 Step 4:
 
 ##### `http://localhost:3000/`
+
+## To run tests
+
+Step 5:
+
+##### `npm run cypress:open`
+
