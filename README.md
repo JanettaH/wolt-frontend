@@ -1,22 +1,22 @@
 
 ## Installation
 
-Step 1:
+Step 0:
 
 ##### `npm install`
 
-Step 2:
+Step 1:
 
 ##### `npm install axios`
 
-Step 3:
+Step 2:
 
 ##### `npx json-server --port=3001 --watch db.json`
 
-Step 4:
+Step 3:
 
 ##### `npm start`
 
-Step 5:
+Step 4:
 
 ##### `http://localhost:3000/`
